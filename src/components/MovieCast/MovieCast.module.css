@@ -1,0 +1,17 @@
+.container {
+  margin-top: 2rem;
+}
+
+.castList {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  padding: 0;
+  list-style: none;
+}
+
+.emptyState {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  color: var(--secondary-text);
+}

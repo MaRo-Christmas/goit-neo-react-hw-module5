@@ -1,0 +1,30 @@
+.container {
+  margin-top: 2rem;
+}
+
+.reviewItem {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background-color: var(--bg-color);
+  border-radius: 8px;
+}
+
+.author {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--secondary-bg-color);
+  color: var(--text-color);
+}
+
+.content {
+  line-height: 1.5;
+  color: var(--secondary-color);
+  white-space: pre-line;
+}
+
+.emptyState {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  color: var(--secondary-text);
+}

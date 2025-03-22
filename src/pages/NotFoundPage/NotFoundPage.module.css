@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 1;
+  color: var(--primary-color);
+}
+
+.message {
+  margin: 1rem 0;
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+.description {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+}
+
+.homeBtn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.homeBtn:hover {
+  border-color: var(--primary-active-color);
+  color: var(--primary-active-color);
+}

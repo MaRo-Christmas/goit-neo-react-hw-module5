@@ -1,0 +1,13 @@
+.movieList {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin: 2rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.movieLink {
+  color: inherit;
+  text-decoration: none;
+}

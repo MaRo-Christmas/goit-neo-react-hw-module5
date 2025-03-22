@@ -1,0 +1,34 @@
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--text-color);
+}
+
+.btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.btn-icon {
+  padding: 0.5rem;
+  background-color: transparent;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+}
+
+.btn-primary:not(:disabled):hover {
+  background-color: var(--primary-active-color);
+}
+
+.btn-warn {
+  background-color: var(--warn-color);
+  color: var(--warn-text-color);
+}
+
+.btn-warn:not(:disabled):hover {
+  background-color: var(--warn-active-color);
+}

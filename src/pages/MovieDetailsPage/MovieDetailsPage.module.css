@@ -1,0 +1,118 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.backBtn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.backBtn:hover {
+  border-color: var(--primary-active-color);
+  color: var(--primary-active-color);
+}
+
+.movieDetails {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .movieDetails {
+    flex-direction: column;
+  }
+}
+
+.posterContainer {
+  aspect-ratio: 2/3;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 0 0 300px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.poster {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.noPoster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.info {
+  flex: 1;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+.section {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}
+
+.sectionTitle {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.userScore {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.additionalInfo {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--secondary-bg-color);
+}
+
+.additionalTitle {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+.additionalLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.infoLink {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  transition: background-color 0.3s ease;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.infoLink:hover {
+  background-color: var(--primary-active-color);
+  color: var(--primary-text-color);
+}
